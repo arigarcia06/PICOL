@@ -1,0 +1,65 @@
+@media (min-width: 0px) and (max-width: 767px) {
+  html {
+    font-size: 12px;
+  }
+  .card {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .card__content {
+    display: block;
+    width: 100%;
+    padding-bottom: 0;
+  }
+  .card__description {
+    padding-left: 25px;
+    width: auto;
+  }
+  .card__image {
+    position: absolute;
+    width: 15rem;
+    left: -14%;
+    top: 75px;
+    bottom: inherit;
+  }
+
+  .card__mobile-flex {
+    display: flex;
+    padding-left: 120px;
+  }
+
+  .card__podcast {
+    width: 100%;
+  }
+  .card__image img {
+    width: 10rem;
+  }
+
+  .card__text {
+    width: 100%;
+    padding: 0;
+  }
+  .card__number {
+    margin-right: -60px;
+    margin-top: -13.8%;
+    z-index: 9;
+  }
+
+  .card__number p {
+    width: 60px;
+    height: 60px;
+  }
+
+  .card__text p {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .card__image {
+    left: -34%;
+  }
+  .card__description {
+    padding-left: 60px;
+  }
+}
